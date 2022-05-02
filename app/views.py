@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def index():
+def home():
 
     newsapi = NewsApiClient(api_key='d3afaf05f0a744be8752d41b2ad1d279')
     top_headlines = newsapi.get_top_headlines(sources = 'bbc-news, buzzfeed, al-jazeera-english, bbc-sport, the-verge')
@@ -35,7 +35,7 @@ def index():
 
         contents = zip(news,desc,img,p_date,url)
 
-    return render_template('index.html',contents=contents)
+    return render_template('home.html',contents=contents)
 
 @app.route('/bbc')
 def bbc():
