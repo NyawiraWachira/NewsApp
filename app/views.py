@@ -123,11 +123,11 @@ def cbs():
 
     return render_template('cbs.html',contents=contents)
 
-@app.route('/espn')
-def espn():
+@app.route('/insider')
+def insider():
 
     newsapi = NewsApiClient(api_key='d3afaf05f0a744be8752d41b2ad1d279')
-    all_articles = newsapi.get_everything(sources = 'espn')
+    all_articles = newsapi.get_everything(sources = 'business-insider')
 
     a_articles = all_articles['articles']
 
@@ -149,7 +149,7 @@ def espn():
         contents = zip(news_all,desc_all,img_all,p_date_all,url_all)
 
 
-    return render_template('espn.html',contents=contents)
+    return render_template('insider.html',contents=contents)
 
 @app.route('/verge')
 def verge():
