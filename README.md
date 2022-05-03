@@ -20,7 +20,7 @@ NewsApp keeps users updated on news coming from different sources. The app also 
 * python version 3 
 * pip
 * flask
-* virtual environment
+* The virtual environment
 
 ## Setup
   To set up this application:
@@ -32,13 +32,14 @@ NewsApp keeps users updated on news coming from different sources. The app also 
 * Activate the virtual environment.
 
 ## Running the Application
-* To run the application, open the cloned file in terminal and run the following commands:
+* To run the application, open the cloned file in terminal and run the following command:
 
         $ python3 app/views.py
         
 
 * To run tests for the application run the following command:
-*  $ python3 app/test.py
+
+        $ python3 app/test.py
 
 ## Technologies Used
 Technologies used in the development of this project include:
