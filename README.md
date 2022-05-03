@@ -50,3 +50,7 @@ There are currently no known bugs.
 ## Support and contact details
 If the application malfunctions or develops a problem, feel free to contact me through email at abigailwachira@gmail.com
 ### License
+
+
+
+Copyright (c) 2022 Nyawira Wachira
