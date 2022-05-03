@@ -12,8 +12,8 @@ NewsApp keeps users updated on news coming from different sources. The app also 
 
 ## Preview 
 
+![Screenshot from 2022-05-03 16-02-57](https://user-images.githubusercontent.com/100156865/166458952-aecada5c-965a-4d69-9f1c-ba09d0e0193e.png)
 
-![Screenshot from 2022-05-03 16-02-57](https://user-images.githubusercontent.com/100156865/166458111-20a7bc24-50c0-4523-ae2b-7b34a776bc56.png)
 
 
 ## Installation Requirements
