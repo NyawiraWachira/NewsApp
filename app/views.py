@@ -1,13 +1,16 @@
 from flask import Flask, render_template
-
+import os
+from flask import send_from_directory
 
 from newsapi import NewsApiClient
 
 
-
 app = Flask(__name__)
 
-
+@app.route('/favicon.ico')
+def favicon():
+    return send_from_directory(os.path.join(app.root_path, 'static'),
+                                'favicon.ico',mimetype='img/favicon.jpeg')
 
 @app.route('/')
 def home():
@@ -183,4 +186,6 @@ def verge():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.secret_key = 'd3afaf05f0a744be8752d41b2ad1d279'
+    app.debug = True
+    app.run()
