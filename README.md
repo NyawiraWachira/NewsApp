@@ -8,7 +8,7 @@
 
 NewsApp is a flask application that utilises the NewsApi. It displays different top headlines from various news sources on the homepage.
 The app also displays all current articles from various news sources and it enables readers to directly access the articles in their main website.
-The app also provides an opportunity for readers to keep themselves informed about different topics inclusive of politics, sports, entertainment, fashion, technology etc. It is an app that conveniently keeps you updated on all current affairs of the world.
+The app also provides an opportunity for readers to keep themselves informed about different aspects like politics, sports, entertainment, fashion, technology etc depending on user preference. It is basically an app that conveniently keeps you updated on all current affairs of the world.
 
 ## Preview 
 
@@ -82,4 +82,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-                  Copyright (c) 2022 **Nyawira Wachira**
+Copyright (c) 2022 **Nyawira Wachira**
