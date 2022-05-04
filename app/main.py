@@ -1,22 +1,25 @@
 from flask import Flask, render_template
-import os
-from flask import send_from_directory
+import os 
+from flask import send_from_directory  
+from app import app
 
 from newsapi import NewsApiClient
 
 
 app = Flask(__name__)
 
-@app.route('/favicon.ico')
-def favicon():
-    return send_from_directory(os.path.join(app.root_path, 'static'),
-                                'favicon.ico',mimetype='img/favicon.jpeg')
+   
+
+@app.route('/favicon.ico') 
+def favicon(): 
+    return send_from_directory(os.path.join(app.root_path, 'static'), 'favicon.ico', mimetype='image/favicon.icon')
+
 
 @app.route('/')
 def home():
 
     newsapi = NewsApiClient(api_key='d3afaf05f0a744be8752d41b2ad1d279')
-    top_headlines = newsapi.get_top_headlines(sources = 'bbc-news, buzzfeed, al-jazeera-english, bbc-sport, the-verge')
+    top_headlines = newsapi.get_top_headlines(sources = 'bbc-news, abc-news, al-jazeera-english, bbc-sport, the-verge')
     
 
     t_articles = top_headlines['articles']
@@ -182,10 +185,3 @@ def verge():
 
     return render_template('verge.html',contents=contents)
 
-
-
-
-if __name__ == '__main__':
-    app.secret_key = 'd3afaf05f0a744be8752d41b2ad1d279'
-    app.debug = True
-    app.run()
