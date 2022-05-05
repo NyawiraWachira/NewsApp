@@ -8,12 +8,15 @@
 
 NewsApp is a flask application that utilises the NewsApi. It displays different top headlines from various news sources on the homepage.
 The app also displays all current articles from various news sources and it enables readers to directly access the articles in their main website.
-NewsApp keeps users updated on news coming from different sources. The app also provides an opportunity for readers to keep themselves informed about different topics inclusive of politics, sports, entertainment, fashion, technology etc. It is an app that conveniently keeps you updated on all current affairs of the world.
+The app also provides an opportunity for readers to keep themselves informed about different aspects like politics, sports, entertainment, fashion, technology etc depending on user preference. It is basically an app that conveniently keeps you updated on all current affairs of the world.
 
 ## Preview 
 
 ![Screenshot from 2022-05-03 16-02-57](https://user-images.githubusercontent.com/100156865/166458952-aecada5c-965a-4d69-9f1c-ba09d0e0193e.png)
 
+### Link
+
+[Project live link ](https://abigail-news-app.herokuapp.com/)
 
 
 ## Installation Requirements
@@ -34,7 +37,7 @@ NewsApp keeps users updated on news coming from different sources. The app also 
 ## Running the Application
 * To run the application, open the cloned file in terminal and run the following command:
 
-        $ python3 app/views.py
+        $ python3 wsgi.py
         
 
 * To run tests for the application run the following command:
@@ -59,7 +62,7 @@ If the application malfunctions or develops a problem, feel free to contact me t
 
 ### License
 
-This project is uder the:
+This project is under the:
 
 MIT License
 
