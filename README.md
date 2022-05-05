@@ -14,7 +14,10 @@ The app also provides an opportunity for readers to keep themselves informed abo
 
 ![Screenshot from 2022-05-03 16-02-57](https://user-images.githubusercontent.com/100156865/166458952-aecada5c-965a-4d69-9f1c-ba09d0e0193e.png)
 
+### Link
+
 [Project live link ](https://abigail-news-app.herokuapp.com/)
+
 
 ## Installation Requirements
 * python version 3 
