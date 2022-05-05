@@ -14,7 +14,7 @@ The app also provides an opportunity for readers to keep themselves informed abo
 
 ![Screenshot from 2022-05-03 16-02-57](https://user-images.githubusercontent.com/100156865/166458952-aecada5c-965a-4d69-9f1c-ba09d0e0193e.png)
 
-
+[Project live link ](https://abigail-news-app.herokuapp.com/)
 
 ## Installation Requirements
 * python version 3 
@@ -59,7 +59,7 @@ If the application malfunctions or develops a problem, feel free to contact me t
 
 ### License
 
-This project is uder the:
+This project is under the:
 
 MIT License
 
