@@ -40,22 +40,17 @@
         </div>
       </nav>
 
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../static/image/hd3.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-      </div>
+      
          
     <section id="main">
-        <h1 align="center">NEWS FROM AROUND THE WORLD</h1>
+        <h1 align="center">NEWS ARTICLES</h1>
         {%for title, desc,img,p_date,url in contents %}
         <div class="wrapper">
             <div class="item"><a href="{{url}}"><img src="{{img}}"></a></div>
             <div class="c-box">
-                <div class="content"><a href="{{url}}"><h3>{{title}}</h3></a></div>
+                <div class="content"><a href="{{url}}"><h3>{{title}}</h3></a></div>    
                 <div class="content"><p>{{desc}}</p></div>
+                <div class="content"><p>{{source}}</p></div>
                 <div class="content"><p style="color:midnightblue;">Publish Date: <p>{{p_date}}</p></p></div>
             </div>
         </div>
